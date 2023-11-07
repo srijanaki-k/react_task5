@@ -1,0 +1,34 @@
+.age-calculator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .calculator-header {
+    font-size: 24px; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  label {
+    margin-top: 20px;
+  }
+
+  input[type="date"] {
+    margin-top: 20px; /* Add space below the input */
+  }
+  
+  .calculate-button {
+    background-color: blue; /* Change the button color to blue */
+    color: white;
+    padding: 10px 20px; /* Increase button size */
+    font-size: 16px; /* Increase button text size */
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
